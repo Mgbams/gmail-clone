@@ -5,6 +5,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import EmailList from "./EmailList";
 import Mail from "./Mail";
+import SendMail from "./SendMail";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
             </Route>
           </Switch>
         </div>
+
+        <SendMail />
       </div>
     </Router>
   );
